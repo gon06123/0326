@@ -1,0 +1,666 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+/* HTML과 BODY 모두에 적용 */
+html, body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;    /* Firefox */
+}
+
+/* 크롬, 사파리, 엣지(Chromium) 전용 */
+html::-webkit-scrollbar, 
+body::-webkit-scrollbar {
+    display: none !important;
+}
+
+
+
+html
+{
+    font-family:"Noto Sans KR", sans-serif;
+    font-weight: 400;
+    font-size: 16px;    
+    word-break: keep-all;
+    line-height: 2;
+    scroll-behavior: smooth;
+}
+
+
+.wrap{
+    width: 900px;
+    margin: auto;
+}
+img{
+    display: block;
+}
+
+body, h1, h2, p{
+
+    margin: 0; 
+    padding: 0;
+}
+
+
+h1{
+    font-size: 15rem;
+    font-weight:bolder ;
+    line-height: 1.2;
+}
+
+
+
+h2{
+    font-size: 11rem;
+    font-weight: 900;
+    z-index: 10;
+    line-height: 1.1;
+    
+}
+
+
+
+
+p{
+    position: relative;
+    font-size: 1.2rem;
+    z-index: 10;
+    filter: none;
+}
+
+
+
+.header{
+    width:100%;
+}
+
+.textboxspace{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+.black{
+    background-color: #131314;
+    color: white;
+    position: relative;
+}
+
+.realblack{
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.yellow{
+    background-color: #FFC400;
+    position: relative;
+    height: 1400px;
+}
+
+.gray2{
+    background-color: #EBEDF0;
+    position: relative;
+    overflow: hidden;
+}
+
+.redbox{
+    display: inline-block;
+    padding: 20px 20px;
+    position: relative;
+    background-color: #E60000;
+    color: #EBEDF0;
+    border-radius: 15px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.bluebox{
+    display: inline-block;
+    padding: 20px 20px;
+    position: relative;
+    background-color: #0366D6;
+    color: white;
+    border-radius: 15px;
+}
+
+.whitebox{
+    background-color: white;
+    display: inline-block;
+    padding: 20px 17px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.yellowbox{
+    background-color: #FFC400;
+    display: inline-block;
+    padding: 20px 17px;
+    position: relative;
+    color: #0366D6;
+}
+
+.greenbox{
+    background-color: #34A853;
+    display: inline-block;
+    padding: 20px 17px;
+    position: relative;
+    color:white
+}
+
+.graybox{
+    display: inline-block;
+    padding: 20px 17px;
+    position: relative;
+    background-color: #EBEDF0;
+    color: black;
+}
+
+.gray2box{
+    display: inline-block;
+    padding: 20px 17px;
+    background-color:   #131314;
+    position: relative;
+    color: white;
+}
+
+
+/* ----------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+.blueline1{
+    background-color: #0366D6; 
+    width: 70px; 
+    height: 1900px;
+    position: absolute;
+    top: 0%;
+    left: 70%;
+}
+
+.blueline2{
+    background-color: #0366D6; 
+    width: 20px; 
+    height: 300px; 
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.blueline3{
+    background-color: #0366D6; 
+    width: 70px; 
+    height: 500px; 
+    position: absolute;
+    top:47%;
+    border-radius: 10px;
+
+}
+
+.blueline4{
+    background-color: #0366D6; 
+    width: 70px; 
+    height: 999px; 
+    position: absolute;
+    top: 70%;
+    left: 62%;
+    border-radius: 10px;
+
+}
+
+.blueline5{
+    background-color: #0366D6; 
+    width: 700px; 
+    height: 70px;
+    position: absolute;
+    top: 4164px;
+    border-radius: 10px;
+}
+
+.grayline{
+    background-color:  #EBEDF0;
+    width: 182px;
+    height: 1000px;
+    position: absolute;
+    left: 13%;
+}
+
+
+
+.redline2{
+    background-color: #E60000;
+    width: 100px;
+    height: 400px;  
+    position: absolute;
+    top: 70%;
+    left: 51.62%;
+}
+
+.greenline{
+    background-color: #34A853;
+    width: 100px;
+    height: 2000px;
+    position: absolute;
+    top:0%;
+    left: 45.8%;
+}
+
+
+.gray2line1{
+     background-color:  #131314;
+     position: absolute;
+     width: 300px;
+     height: 30px;
+     top: -43%;
+     left: 55%;     
+}
+
+.gray2line2{
+     background-color:  #131314;
+     position: absolute;
+     width: 700px;
+     height: 50px;
+     top: -13%;
+     left: 5%;    
+     z-index: 10; 
+}
+
+.gray2line3{
+     background-color:  #131314;
+     position: absolute;
+     width: 300px;
+     height: 100px;
+     top: 15%;
+     left: 50%;     
+}
+
+.gray2line4{
+     background-color:  #131314;
+     position: absolute;
+     width: 300px;
+     height: 200px ;
+}
+
+
+/* ----------------------------------------------------------------------------------------------- */
+
+.coverimg{
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.part1{
+    position: relative;
+    width: 100%;
+    height: 1550px;
+}
+
+.part2{
+    position: relative;
+    width: 100%;
+    height: 1250px;
+    
+}
+
+.part3{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    background: url(wolfsheep.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.part4{
+
+    width: 100%;
+    height: 1400px;
+    background: url(green.gif);
+    background-size: 6%;
+    position: relative;
+
+}
+
+
+
+
+.blur-overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    backdrop-filter: blur(3px);
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+.left-spacing{
+    padding-left: 150px;
+}
+
+.right-spacing{
+    padding-right: 150px;
+}
+
+.center-spacing{
+    padding-left: 100px; 
+    padding-right: 100px;
+    text-align: center;}
+
+
+
+.space {
+    padding-top: 500px;
+}
+
+.right-align{text-align: right;}
+
+.left-align{text-align: left;}
+
+.center-align{text-align: center;}
+
+
+.coupangimg{
+    padding-bottom: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+}    
+
+
+
+.moreblank{
+    padding-top: 1700px;
+    padding-bottom: 800px;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+
+
+.h1tittle{
+    color: rgb(0, 0, 0);
+    border-bottom: 5px solid #000000 
+}
+
+.서론{
+    position: relative;
+}
+
+.pt1tittle{
+    top: 15%;
+    position: absolute;
+    font-size: 25rem;
+  
+}
+
+.cptittle{
+    padding-top: 100px;
+    color: #0366D6;
+    border-bottom: 10px solid #E60000 
+}
+
+
+
+.tittleexplain{ 
+    color: rgb(31,32,34);
+    padding-left: auto;
+    padding-right: auto;
+    font-size: 2rem;
+    position: absolute;
+    top: 25%;
+}
+
+
+.pt3tittle{
+    padding-top: 100px;
+    padding-left: 150px;
+    font-size: 15rem;
+    color: #34A853;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    
+}
+
+.part3back{
+    height: 700px;
+}
+
+
+
+.pt4text1{
+    padding-top: 357px;
+}
+
+.pt4text2{
+    color:  #E60000;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+.redtext{
+    position: absolute;
+    top: 35%;
+    left:45%;
+}
+
+
+.shout{
+    position:relative;
+    font-size: 4rem;
+    font-weight:700;   
+    color:#E60000;
+    text-align: center;
+    padding-top: 150px; padding-bottom: 150px;
+    z-index: 30;
+    }
+
+.gray{
+    background-color:rgb(31,32,34);
+    position: relative;
+}
+
+.noise{
+    background: url(white-noise-colourful.gif);
+    mix-blend-mode: overlay; 
+    opacity: 0.9;
+    position: absolute; 
+    inset: 0;
+    z-index: 10;
+    overflow: hidden;
+}
+
+
+.grad{
+    background: linear-gradient(to bottom, rgb(31, 32, 34) 65%, black 100%); 
+    position: relative;
+    overflow: hidden;
+}
+
+.centerimg{
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+}
+
+ /* 잎들이 등장할 특정 타겟 섹션 */
+    .leaf-section {
+      position: relative; /* 중요: absolute인 잎들의 기준점이 됨 */
+      overflow: hidden; /* 중요: 섹션 밖으로 나간 잎들을 안 보이게 잘라냄 */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+ /* 🍃 나뭇잎 공통 스타일 */
+    .leaf {
+      position: absolute; /* 변경됨: 화면 고정(fixed)에서 섹션 내부 고정(absolute)으로 */
+      pointer-events: none;
+    }
+
+    /* 초기 위치 및 크기 설정 */
+    .leaf1 { top: -5%; left: -30%; z-index: 5;}
+    .leaf2 { top: 1%; left: 75%;  z-index: 20; }
+    .leaf3 { top: 10%; left: 20%;  filter: blur(5px); z-index: 1; opacity: 0.6;}
+    .leaf4 { top:20%; left: 50%; z-index: 20;}
+    .leaf5 { top:22%; left: 75%;}
+    .leaf6 { top:30%; left:30%; z-index: 20; filter: blur(1px);}
+    .leaf7 { top:45%; left:-5%; filter: blur(3px); opacity: 0.8;}
+    .leaf8 { top:60%; left:65%;}
+    .leaf9 {filter: blur(3px); opacity: 0.6;}
+    .leaf10 { top:70%; left:-12%; z-index: 5;}
+
+
+
+.shaking-nonstop {
+  /* 애니메이션 적용: 이름(extreme-shake) / 지속시간(0.1s) / 반복(infinite) */
+  animation: extreme-shake 0.2s infinite linear;
+}
+
+@keyframes extreme-shake {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  10% { transform: translate(-5px, -2px) rotate(-2deg); }
+  20% { transform: translate(-10px, 0px) rotate(3deg); }
+  30% { transform: translate(5px, 2px) rotate(0deg); }
+  40% { transform: translate(5px, -5px) rotate(2deg); }
+  50% { transform: translate(-5px, 5px) rotate(-3deg); }
+  60% { transform: translate(-10px, 2px) rotate(0deg); }
+  70% { transform: translate(10px, 5px) rotate(-2deg); }
+  80% { transform: translate(-5px, -5px) rotate(3deg); }
+  90% { transform: translate(5px, 2px) rotate(-2deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+
+
+
+.blank{
+    width: 100%;
+    height:300px ;
+}
+
+
+.lastimg{
+    background-image: url(ending.jpg);
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.lasttext{
+    position: absolute;
+    top: 10%;
+    left: 23.5%;
+
+}
+
+
+
+footer{
+    width: 100%;
+    height: 200px;
+}
+
+.lastfooter { 
+    padding-top: 100px;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(109, 109, 109);   
+}
+
+.grayimg{
+    filter: grayscale(100%);
+    z-index: 1;
+    position: absolute;
+    z-index: 1;
+}
+
+.ncbox1{
+    top: -50%;
+    left: -25%;
+}
+
+.ncbox2{
+    top: 0%;
+    left: 70%;
+}
+
+.ncbox3{
+    top:70%;
+
+}
+
+.ncbox4{
+    top:140%;
+    left:50%
+}
+
+.navbar{
+    width: 100%;
+    
+}
+
+.conrainer{
+    padding-left: 65%;
+    list-style: none;
+
+    
+}
+
+a{
+    text-decoration-line:none ;
+    font-size: 80px;  
+    font-weight: lighter;
+    color: black;
+}
+
+.item1{
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+.item2{
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+
+.item3{
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+
+.item4{
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+
+.item1:hover {
+  background-color: #FFC400;
+  color: white;          /* 글자색 흰색으로 */
+  padding-left: 80px;        /* 왼쪽 여백을 늘려 텍스트를 오른쪽으로 밀기 */
+}
+
+.item2:hover {
+  background-color: #0366D6;
+  color: white;          /* 글자색 흰색으로 */
+  padding-left: 80px;        /* 왼쪽 여백을 늘려 텍스트를 오른쪽으로 밀기 */
+}
+
+.item3:hover {
+  background-color: #34A853;
+  color: white;          /* 글자색 흰색으로 */
+  padding-left: 80px;        /* 왼쪽 여백을 늘려 텍스트를 오른쪽으로 밀기 */
+}
+
+.item4:hover {
+  background-color: #E60000;
+  color: white;          /* 글자색 흰색으로 */
+  padding-left: 80px;        /* 왼쪽 여백을 늘려 텍스트를 오른쪽으로 밀기 */
+}
+
